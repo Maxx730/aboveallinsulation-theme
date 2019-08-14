@@ -35,7 +35,7 @@
 					</h1>
 					<div class = "">
 						<?php
-							$workpost = get_post(16);
+							$workpost = get_post(8);
 							$content = apply_filters('the_content', $workpost->post_content);
 							echo $content;
 						?>
@@ -54,7 +54,7 @@
 					<div class = "">
 						<div id = "about-us-content">
 							<?php
-								$aboutpost = get_post(18);
+								$aboutpost = get_post(14);
 								$content = apply_filters('the_content', $aboutpost->post_content);
 								echo $content;
 							?>
@@ -63,9 +63,11 @@
 				</div>
 			</div>
 			<div id = "" class = "section-title">
-				<h1>
-					Contact Us
-				</h1>
+				<div class = "center-info">
+					<h1>
+						Contact Us
+					</h1>
+				</div>
 			</div>
 			<div id = "center-info">
 
