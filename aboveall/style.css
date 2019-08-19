@@ -54,6 +54,13 @@ html,body,p,h1,ul,figure {
 	color: #FFFFFF;
 }
 
+#about-us-content figure {
+	border: solid 3px #FFFFFF;
+	-webkit-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+	-moz-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+	box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+}
+
 #about-us-background-image {
 	position: absolute;
 	width: 100%;
