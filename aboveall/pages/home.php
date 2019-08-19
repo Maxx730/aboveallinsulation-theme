@@ -44,7 +44,7 @@
 			</div>
 			<div id = "target-about-us" class = "section-title">
 				<?php
-					if(has_post_thumbnail(18));
+					if(has_post_thumbnail(14));
 				?>
 				<?php echo '<div id = "about-us-background-image" style="background:url('.wp_get_attachment_image_src(get_post_thumbnail_id(18),'full')[0].');background-size: 100% auto;"></div><div id = "about-us-background-mask"></div>' ?>
 				<div class = "center-info">
