@@ -51,6 +51,7 @@ html,body,p,h1,ul,figure {
 #about-us-content {
 	display: flex;
 	position: relative;
+	color: #FFFFFF;
 }
 
 #about-us-background-image {
