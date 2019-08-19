@@ -70,7 +70,7 @@
 					<div class = "">
 						<div id = "about-us-content">
 							<?php
-								$aboutpost = get_post(78);
+								$aboutpost = get_post(28);
 								$content = apply_filters('the_content', $aboutpost->post_content);
 								echo $content;
 							?>
