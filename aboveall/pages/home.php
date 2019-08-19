@@ -68,7 +68,7 @@
 						Contact Us
 					</h1>
 					<div class = "">
-						<div id = "about-us-content">
+						<div id = "contact-us-content">
 							<?php
 								$aboutpost = get_post(28);
 								$content = apply_filters('the_content', $aboutpost->post_content);
