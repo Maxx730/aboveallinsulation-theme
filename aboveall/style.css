@@ -71,6 +71,10 @@ html,body,p,h1,ul,figure {
 	height: 100%;
 }
 
+#contact-us-content {
+	display: flex;
+}
+
 #page {
 	display: flex;
 	flex-direction: column;
