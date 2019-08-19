@@ -163,7 +163,9 @@ header.fixed-masthead #quick-contact {
 }
 
 .site-header #quick-contact span i {
-	margin-right: 8px;
+	margin-right: 8px;	-webkit-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+	-moz-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+	box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
 }
 
 .main-navigation img {
@@ -251,7 +253,9 @@ footer #center-content {
 
 footer #footer-cta {
 	padding: 12px 0px 12px 0px;
-}
+}	-webkit-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+-moz-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
 
 #footer-bottom {
 	flex-grow: 1;
@@ -348,7 +352,18 @@ footer #footer-contact,footer #center-info .site-info {
 	background: #ef4187;
 	flex-grow: 1;
 	padding: 12px;
+	padding-left: 16px;
 	width: 220px;
+	color: #FFFFFF;
+	font-size: 24px;
+	-webkit-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+	-moz-box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+	box-shadow: 0px 5px 19px -4px rgba(112,35,67,0.5);
+}
+
+#masthead-links a i {
+	margin-top: 5px;
+	margin-left: 6px;
 }
 
 #masthead-links a:not(:first-child) {

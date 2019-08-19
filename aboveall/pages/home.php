@@ -67,6 +67,15 @@
 					<h1>
 						Contact Us
 					</h1>
+					<div class = "">
+						<div id = "about-us-content">
+							<?php
+								$aboutpost = get_post(78);
+								$content = apply_filters('the_content', $aboutpost->post_content);
+								echo $content;
+							?>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id = "center-info">
